@@ -7,7 +7,7 @@ st.title("🧠 Radiology Report Generator")
 st.write("Enter study details and generate structured report.")
 
 # Get API key securely from secrets
-openai.api_key = os.environ["OPENAI_API_KEY"]
+openai.api_key = os.environ["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"]
 
 # Input fields
 study_type = st.selectbox("Select Study Type", ["MRI Brain", "CT Thorax", "MRI Knee"])
